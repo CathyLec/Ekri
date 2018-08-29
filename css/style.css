@@ -8,13 +8,29 @@
     position: relative;
     display: block;
 }
-.option {
-    border-top-right-radius: 12px;
-    margin-left: 0;
-    margin-right: 0;
-    background-color: whitesmoke;
-    border-color: #1565C0;
-    width: 19%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2196F3;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#1565C0;
 }
 #editzone{
     position:relative;
