@@ -46,4 +46,10 @@ li a:hover {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.opciones{
+    margin: auto;
+    overflow: auto;
 }
