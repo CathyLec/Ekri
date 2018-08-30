@@ -40,7 +40,7 @@ li a:hover {
     
 }
 #textzone{
-    margin-top: 5%;
+    margin-top: 6%;
     position: relative;
     height: 70%;
     width: 80%;
@@ -49,7 +49,7 @@ li a:hover {
     margin-bottom: 10%;
 }
 
-.opciones{
+#option{
     margin: auto;
     overflow: auto;
 }
@@ -68,3 +68,4 @@ li a:hover {
 #open{
     background-image: url("/img/open.jpg")
 }
+
