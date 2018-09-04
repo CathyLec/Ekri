@@ -99,3 +99,27 @@ li a:hover {
     background: white;
     
 }
+
+.idea{
+    width: 30%;
+    height: auto;
+    border-color: #2196F3;
+    color: black;
+    border-radius: 12px;
+    background: #BBDEFB;
+    float: left;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+.ideaText{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+.titleh2{
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
