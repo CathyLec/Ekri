@@ -16,6 +16,7 @@
     overflow: hidden;
     background-color:#2196F3;
     height: 90%;
+    color: white;
 }
 
 
@@ -29,13 +30,14 @@
 .itemsC {
     display: table-caption;
     margin-left: -66%;
+    color:  white;
 }
 
 
 li a {
     display: table-cell;
-    color: white;
     width: 54%;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
@@ -85,7 +87,7 @@ li a:hover {
 
 
 #textzone{
-    margin-top: -23%;
+    margin-top: -24%;
     height: 80%;
     width: 82%;
     margin-left: 9%;
@@ -127,4 +129,5 @@ li a:hover {
 
 .character{
     color: black !important;
+    
 }
