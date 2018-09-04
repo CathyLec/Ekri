@@ -8,36 +8,42 @@
 </head>
 <body id="bodyOpc" >
     <nav id="records">
-        <ul>
-            <li><a href="index.html" >Editor</a></li>
-            <li><a href="chronology.html">Tiempo</a></li>
-            <li><a href="characters.html">Pesona</a></li>
-            <li><a href="places.html">Lugar</a></li>
-            <li><a href="notes.html">Notas</a></li>
+        <ul id="main"> 
+            <li  class="items" ><a>...</a>
+                <ul id="more">
+                    <li class="itemsC"> Guardar
+                        <div id="save" class="Crud">
+                            <img src="img/save.png" class="image" alt="">
+                        </div>
+                    </li>                                   
+                    <li class="itemsC"> Abrir
+                        <div id="open" class="Crud">
+                            <img src="img/open.png" class="image"alt="">
+                        </div>
+                    </li>                            
+                    <li class="itemsC"> Borrar
+                        <div id="delete" class="Crud ">
+                            <img src="img/delete.png" class="image" alt="">
+                        </div>
+                    </li>                          
+                    <li class="itemsC"> Exportar
+                        <div id="export" class="Crud ">
+                            <img src="img/export.png" class="image" alt="">
+                        </div>
+                    </li> 
+                </ul>
+            </li>
+            <li class="items"><a href="index.html" >Editor</a></li>
+            <li class="items"><a href="chronology.html">Tiempo</a></li>
+            <li class="items"><a href="characters.html">Pesona</a></li>
+            <li class="items"><a href="places.html">Lugar</a></li>
+            <li class="items"><a href="notes.html">Notas</a></li>
         </ul>
         
     </nav>
     <div id="editzone">
-        <h2 id="titleText">Continua tu historia</h2>
-        <textarea name="editArea" id="textzone" cols="30" rows="10"></textarea>
-        <div class = "option">
-            <div id="save">
-                <img src="img/save.png" alt="" class="Crud">
-                <h5>Guardar</h5>
-            </div>
-            <div id="open">
-                <img src="img/open.png" alt=""class="Crud">
-                <h5>Abrir</h5>
-            </div>
-            <div id="delete">
-                <img src="img/delete.png" alt=""class="Crud">
-                <h5>Borrar</h5>
-            </div>
-            <div id="export">
-                <img src="img/export.png" alt="" class="Crud">
-                <h5>exportar</h5>
-            </div>
-        </div>
+        <textarea name="editArea" id="textzone" cols="30" rows="10"></textarea>              
+            
     </div>
 
 
