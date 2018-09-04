@@ -114,12 +114,17 @@ li a:hover {
 
 .ideaText{
     width: 80%;
-    height: 60%;
+    height: 17%;
     margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 .titleh2{
     margin-left: 10%;
     margin-top: 5%;
 
+}
+
+.character{
+    color: black !important;
 }
