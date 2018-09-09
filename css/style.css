@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #bodyOpc{
     overflow: hidden;
     background:white;
@@ -131,3 +134,155 @@ li a:hover {
     color: black !important;
     
 }
+
+
+/* Estilo para el login */
+main.container-login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 2rem;
+    margin: 0;
+    background: linear-gradient(to top, #2196F3, #d1c4e9);
+    z-index: -2;
+}
+main.container-login span{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: url(/img/span-login.png);
+    z-index: -1;
+}
+main.container-login span:nth-child(1){
+    transform: translate(10%,-10%);
+    bottom: 0;
+    left:0;
+    animation: floatSpan1 3s infinite ease-in-out;
+}
+main.container-login span:nth-child(2){
+    transform: translate(100%,-120%) scale(0.6);
+    bottom: 0;
+    left:0;
+    animation: floatSpan2 3s infinite ease-in-out 2s;
+}
+main.container-login span:nth-child(3){
+    transform: translate(0,-10%) scale(0.4);
+    top: 0;
+    left:0;
+    animation: floatSpan3 3s infinite ease-in-out 1s;
+}
+
+@keyframes floatSpan1 {
+    0%, 100%{transform: translate(10%, -10%);}
+    50%{transform: translate(10%, -13%);}
+}
+@keyframes floatSpan2 {
+    0%, 100%{transform: translate(100%,-120%) scale(0.6);}
+    50%{transform: translate(100%,-123%) scale(0.6);}
+}
+@keyframes floatSpan3 {
+    0%, 100%{transform: translate(0,-10%) scale(0.4);}
+    50%{transform: translate(0,-13%) scale(0.4);}
+}
+header#header-login{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid chocolate;  */
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    color: rgb(80, 104, 131);
+    
+}
+header#header-login h1{
+    font-size: 3.5em;
+}
+section#section-login{
+    /* border: 1px solid crimson;  */
+    margin-top: 4rem;
+}
+footer#footer-login{
+    position: fixed;
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid #1565C0; */
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+}
+label {
+    display: block;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Varela Round';
+  }
+  /* line 116, ../sass/_generals.scss */
+  label .label-text {
+    color: #3A25A3;
+    cursor: text;
+    font-size: .7em;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: translateY(-34px);
+    transition: all 0.6s;
+  }
+  /* line 128, ../sass/_generals.scss */
+  label input {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid rgb(80, 104, 131);
+    color: #3A25A3;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    outline: 0;
+    padding: 5px 30px;
+    text-align: center;
+    transition: all 0.6s ease;
+    width: 200px;
+  }
+  /* line 142, ../sass/_generals.scss */
+  label input:focus {
+    max-width: 100%;
+    width: 300px;
+    border-radius: 14px;
+  }
+  /* line 147, ../sass/_generals.scss */
+  label input:focus + .label-text {
+    color: #3A25A3;
+    font-size: 13px;
+    letter-spacing: 5px;
+    transform: translateY(-64px);
+  }
+  /* line 154, ../sass/_generals.scss */
+  label input:valid {
+    border-radius: 7px;
+  }
+  /* line 157, ../sass/_generals.scss */
+  label input:valid + .label-text {
+    font-size: 13px;
+    letter-spacing: 5px;
+    transform: translateY(-64px);
+    opacity: 0.4;
+  }
+  /* line 165, ../sass/_generals.scss */
+  label input[type="number"]::-webkit-inner-spin-button, label input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* line 173, ../sass/_generals.scss */
+  label input.invalid {
+    border-bottom: 3px solid #F50057;
+    border-radius: 14px;
+    color: #F50057;
+  }
+  /* Fin estilo login */
